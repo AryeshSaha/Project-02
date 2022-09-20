@@ -40,10 +40,6 @@ input{
     width: 100%;
 }
 
-input[type="text"]{
-    height: 4rem;
-}
-
 input[type='button']:hover {
     background-color: white;
     scale: 1.05;

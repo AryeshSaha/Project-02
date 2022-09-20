@@ -16,13 +16,8 @@
                 <h1>Calculator App</h1>
                 <table class="table">
                     <tr>
-                        <td colspan="4"><input type="text" name="text" id="textarea"></td>
-                    </tr>
-                    <tr>
-                        <td><input type="button" value="^" onclick="display('^')"></td>
-                        <td><input type="button" value="X" onclick="display('X')"></td>
-                        <td><input type="button" value="%" onclick="display('%')"></td>
-                        <td><input type="button" value="/" onclick="display('/')"></td>
+                        <td colspan="3"><input type="text" name="text" id="textarea"></td>
+                        <td><input type="button" value="C" onclick="clr()"></td>
                     </tr> 
                     <tr> 
                         <td><input type="button" value="7" onclick="display('7')"></td>
@@ -43,10 +38,10 @@
                         <td><input type="button" value="+" onclick="display('+')"></td>
                     </tr> 
                     <tr> 
-                        <td><input type="button" value="C" onclick="clr()"></td>
-                        <td><input type="button" value="0" onclick="display('0')"></td>
                         <td><input type="button" value="." onclick="display('.')"></td>
+                        <td><input type="button" value="0" onclick="display('0')"></td>
                         <td><input type="button" value="=" onclick="calculate()"></td>
+                        <td><input type="button" value="/" onclick="display('/')"></td>
                     </tr>
                 </table>
             </div>
