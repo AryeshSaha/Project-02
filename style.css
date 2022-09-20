@@ -28,7 +28,7 @@ h1 {
 td {
   border: none;
 }
-/* 
+
 input {
   border-radius: 4px;
   border: none;
@@ -36,15 +36,15 @@ input {
   font-size: 2rem;
   font-weight: 800;
   width: 100%;
-} */
+}
 
-input[type='button']{
-  width: 100%;
+input[type='button']:hover{
+  background-color: white;
+  scale: 1.05;
 }
 
 input[type="text"]{
-  width: 100%;
-  height: 3.5rem;
+  height: 4rem;
 }
 
 footer {
